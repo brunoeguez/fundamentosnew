@@ -1,0 +1,29 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;  
+
+int main() 
+{ 
+
+	int numero1,numero2,numero3; //declarar variables 
+	cout<<"ingrese el numero1: "<<endl;
+	cin>>numero1;
+	cout<<"ingrese el numero2: "<<endl;
+	cin>>numero2;
+	cout<<"ingrese el numero 3: "<<endl;
+	cin>>numero3;
+	if (numero1>=numero2)
+		if (numero1>=numero3)
+			cout<<"el numero mayor es :"<<numero1<<endl;
+		else
+			cout<<"el mayor es : "<<numero2<<endl;
+	else 
+	if (numero2>=numero3)
+			cout<<"el numero mayor es :"<<numero2<<endl;
+		else
+			cout<<"el mayor es : "<<numero3<<endl;
+	getch();
+	return 0;
+}
